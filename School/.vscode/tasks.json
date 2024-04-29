@@ -1,0 +1,51 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "build my project",
+            "type": "shell",
+            "command": "g++",
+            "args": [
+                "-g",
+                "${workspaceFolder}/main.cpp",
+                "${workspaceFolder}/c_steganographe.cpp", 
+                {
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "build my project",
+            "type": "shell",
+            "command": "g++",
+            "args": [
+                "-g",
+                "${workspaceFolder}/main.cpp",
+                "${workspaceFolder}/c_steganographe.cpp",
+                "${workspaceFolder}/c_BMP.cpp",
+                // Ajoutez ce fichier
+                // Incluez ici d'autres fichiers .cpp si nécessaire
+                "-o",
+                "${workspaceFolder}/steg"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": ["$gcc"],
+            "detail": "Commande générée par l'utilisateur."
+        }
+    ]
+}
+
+                // Incluez ici d'autres fichiers .cpp si nécessaire
+                "-o",
+                "${workspaceFolder}/steg"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": ["$gcc"],
+            "detail": "Commande générée par l'utilisateur."
+        }
+    ]
+}
